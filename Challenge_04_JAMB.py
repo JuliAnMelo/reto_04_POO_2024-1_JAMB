@@ -494,5 +494,5 @@ class Exercise(Order):
 if __name__ == "__main__": 
     counter = int(input("Welcome to this establishment\nHow many people?\n"))
     order = Order()
-    challenge_03 = Exercise(order, counter)
-    challenge_03.execute()
+    challenge_04 = Exercise(order, counter)
+    challenge_04.execute()
